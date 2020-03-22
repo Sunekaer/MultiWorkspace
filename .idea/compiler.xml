@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="1.15.Mod_WTBW_Machines.main" target="1.8" />
+      <module name="1.15.Mod_WTBW_Machines.test" target="1.8" />
+      <module name="com.puma.WTBW.main" target="1.8" />
+      <module name="com.puma.WTBW.test" target="1.8" />
+      <module name="com.sunekaer.mods.ExSaxum.main" target="1.8" />
+      <module name="com.sunekaer.mods.ExSaxum.test" target="1.8" />
+      <module name="com.sunekaer.mods.Mod_YAMDA.main" target="1.8" />
+      <module name="com.sunekaer.mods.Mod_YAMDA.test" target="1.8" />
+      <module name="com.sunekaer.mods.Simple-Discord-Rich-Presence.main" target="1.8" />
+      <module name="com.sunekaer.mods.Simple-Discord-Rich-Presence.test" target="1.8" />
+      <module name="com.sunekaer.mods.Simple_Discord_Rich_Presence.main" target="1.8" />
+      <module name="com.sunekaer.mods.Simple_Discord_Rich_Presence.test" target="1.8" />
+      <module name="com.sunekaer.mods.ToolKit.main" target="1.8" />
+      <module name="com.sunekaer.mods.ToolKit.test" target="1.8" />
+      <module name="com.sunekaer.mods.YAMDA.main" target="1.8" />
+      <module name="com.sunekaer.mods.YAMDA.test" target="1.8" />
+      <module name="com.wtbw.AWTBW.main" target="1.8" />
+      <module name="com.wtbw.AWTBW.test" target="1.8" />
+      <module name="com.wtbw.core.Mod_WTBW_Core.main" target="1.8" />
+      <module name="com.wtbw.core.Mod_WTBW_Core.test" target="1.8" />
+      <module name="com.wtbw.decoration.Mod_WTBW_Decoration.main" target="1.8" />
+      <module name="com.wtbw.decoration.Mod_WTBW_Decoration.test" target="1.8" />
+      <module name="com.wtbw.lib.Mod_WTBW_Lib.main" target="1.8" />
+      <module name="com.wtbw.lib.Mod_WTBW_Lib.test" target="1.8" />
+      <module name="com.wtbw.machines.Mod_WTBW_Machines.main" target="1.8" />
+      <module name="com.wtbw.machines.Mod_WTBW_Machines.test" target="1.8" />
+      <module name="com.wtbw.Mod_WTBW.main" target="1.8" />
+      <module name="com.wtbw.Mod_WTBW.test" target="1.8" />
+      <module name="com.wtbw.mods.AWTBW.main" target="1.8" />
+      <module name="com.wtbw.mods.AWTBW.test" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Core.main" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Core.test" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Decoration.main" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Decoration.test" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Lib.main" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Lib.test" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Machines.main" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Machines.test" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Tools.main" target="1.8" />
+      <module name="com.wtbw.mods.Mod_WTBW_Tools.test" target="1.8" />
+      <module name="com.wtbw.mods.tools.mods.core.Mod_WTBW_Core.main" target="1.8" />
+      <module name="com.wtbw.mods.tools.mods.core.Mod_WTBW_Core.test" target="1.8" />
+      <module name="com.wtbw.mods.tools.mods.decoration.Mod_WTBW_Decoration.main" target="1.8" />
+      <module name="com.wtbw.mods.tools.mods.decoration.Mod_WTBW_Decoration.test" target="1.8" />
+      <module name="com.wtbw.mods.tools.mods.Mod_WTBW_Machines.main" target="1.8" />
+      <module name="com.wtbw.mods.tools.mods.Mod_WTBW_Machines.test" target="1.8" />
+      <module name="com.wtbw.mods.WTBW.main" target="1.8" />
+      <module name="com.wtbw.mods.WTBW.test" target="1.8" />
+      <module name="com.wtbw.tools.Mod_WTBW_Tools.main" target="1.8" />
+      <module name="com.wtbw.tools.Mod_WTBW_Tools.test" target="1.8" />
+      <module name="com.wtbw.tools.mods.core.Mod_WTBW_Core.main" target="1.8" />
+      <module name="com.wtbw.tools.mods.core.Mod_WTBW_Core.test" target="1.8" />
+      <module name="com.wtbw.tools.mods.decoration.Mod_WTBW_Decoration.main" target="1.8" />
+      <module name="com.wtbw.tools.mods.decoration.Mod_WTBW_Decoration.test" target="1.8" />
+      <module name="com.wtbw.tools.mods.Mod_WTBW_Lib.main" target="1.8" />
+      <module name="com.wtbw.tools.mods.Mod_WTBW_Lib.test" target="1.8" />
+      <module name="com.wtbw.tools.mods.Mod_WTBW_Machines.main" target="1.8" />
+      <module name="com.wtbw.tools.mods.Mod_WTBW_Machines.test" target="1.8" />
+      <module name="com.wtbw.WTBW.main" target="1.8" />
+      <module name="com.wtbw.WTBW.test" target="1.8" />
+      <module name="com.yourname.modid.ExSaxum.main" target="1.8" />
+      <module name="com.yourname.modid.ExSaxum.test" target="1.8" />
+      <module name="com.yourname.modid.workspace.main" target="1.8" />
+      <module name="com.yourname.modid.workspace.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

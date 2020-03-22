@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ExSaxum" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mod_WTBW_Core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mod_WTBW_Decoration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mod_WTBW_Lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mod_WTBW_Machines" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mod_WTBW_Tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mod_YAMDA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Simple_Discord_Rich_Presence" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ToolKit" vcs="Git" />
+  </component>
+</project>

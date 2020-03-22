@@ -1,0 +1,12 @@
+rootProject.name = '1.15'
+include 'ToolKit'
+include 'Mod_WTBW_Lib'
+include 'Mod_WTBW_Decoration'
+include 'Mod_WTBW_Core'
+include 'Mod_WTBW_Tools'
+include 'Mod_WTBW_Machines'
+include 'Simple_Discord_Rich_Presence'
+include 'ExSaxum'
+include 'Mod_YAMDA'
+
+include 'workspace'

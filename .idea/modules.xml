@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.15.iml" filepath="$PROJECT_DIR$/.idea/modules/1.15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExSaxum/com.sunekaer.mods.ExSaxum.iml" filepath="$PROJECT_DIR$/.idea/modules/ExSaxum/com.sunekaer.mods.ExSaxum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExSaxum/com.sunekaer.mods.ExSaxum.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ExSaxum/com.sunekaer.mods.ExSaxum.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExSaxum/com.sunekaer.mods.ExSaxum.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ExSaxum/com.sunekaer.mods.ExSaxum.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_YAMDA/com.sunekaer.mods.Mod_YAMDA.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_YAMDA/com.sunekaer.mods.Mod_YAMDA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_YAMDA/com.sunekaer.mods.Mod_YAMDA.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_YAMDA/com.sunekaer.mods.Mod_YAMDA.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_YAMDA/com.sunekaer.mods.Mod_YAMDA.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_YAMDA/com.sunekaer.mods.Mod_YAMDA.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Discord_Rich_Presence/com.sunekaer.mods.Simple_Discord_Rich_Presence.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Discord_Rich_Presence/com.sunekaer.mods.Simple_Discord_Rich_Presence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Discord_Rich_Presence/com.sunekaer.mods.Simple_Discord_Rich_Presence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Discord_Rich_Presence/com.sunekaer.mods.Simple_Discord_Rich_Presence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Discord_Rich_Presence/com.sunekaer.mods.Simple_Discord_Rich_Presence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Discord_Rich_Presence/com.sunekaer.mods.Simple_Discord_Rich_Presence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToolKit/com.sunekaer.mods.ToolKit.iml" filepath="$PROJECT_DIR$/.idea/modules/ToolKit/com.sunekaer.mods.ToolKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToolKit/com.sunekaer.mods.ToolKit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ToolKit/com.sunekaer.mods.ToolKit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ToolKit/com.sunekaer.mods.ToolKit.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ToolKit/com.sunekaer.mods.ToolKit.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Core/com.wtbw.mods.Mod_WTBW_Core.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Core/com.wtbw.mods.Mod_WTBW_Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Core/com.wtbw.mods.Mod_WTBW_Core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Core/com.wtbw.mods.Mod_WTBW_Core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Core/com.wtbw.mods.Mod_WTBW_Core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Core/com.wtbw.mods.Mod_WTBW_Core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Decoration/com.wtbw.mods.Mod_WTBW_Decoration.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Decoration/com.wtbw.mods.Mod_WTBW_Decoration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Decoration/com.wtbw.mods.Mod_WTBW_Decoration.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Decoration/com.wtbw.mods.Mod_WTBW_Decoration.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Decoration/com.wtbw.mods.Mod_WTBW_Decoration.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Decoration/com.wtbw.mods.Mod_WTBW_Decoration.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Lib/com.wtbw.mods.Mod_WTBW_Lib.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Lib/com.wtbw.mods.Mod_WTBW_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Lib/com.wtbw.mods.Mod_WTBW_Lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Lib/com.wtbw.mods.Mod_WTBW_Lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Lib/com.wtbw.mods.Mod_WTBW_Lib.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Lib/com.wtbw.mods.Mod_WTBW_Lib.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Machines/com.wtbw.mods.Mod_WTBW_Machines.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Machines/com.wtbw.mods.Mod_WTBW_Machines.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Machines/com.wtbw.mods.Mod_WTBW_Machines.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Machines/com.wtbw.mods.Mod_WTBW_Machines.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Machines/com.wtbw.mods.Mod_WTBW_Machines.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Machines/com.wtbw.mods.Mod_WTBW_Machines.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Tools/com.wtbw.mods.Mod_WTBW_Tools.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Tools/com.wtbw.mods.Mod_WTBW_Tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Tools/com.wtbw.mods.Mod_WTBW_Tools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Tools/com.wtbw.mods.Mod_WTBW_Tools.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mod_WTBW_Tools/com.wtbw.mods.Mod_WTBW_Tools.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mod_WTBW_Tools/com.wtbw.mods.Mod_WTBW_Tools.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace/com.yourname.modid.workspace.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace/com.yourname.modid.workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace/com.yourname.modid.workspace.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace/com.yourname.modid.workspace.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace/com.yourname.modid.workspace.test.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace/com.yourname.modid.workspace.test.iml" />
+    </modules>
+  </component>
+</project>

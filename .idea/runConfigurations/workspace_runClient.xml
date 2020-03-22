@@ -1,0 +1,26 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="workspace runClient" type="Application" factoryName="Application" singleton="false">
+    <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_201\jre" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="MOD_CLASSES" value="ExSaxum%%$PROJECT_DIR$/../MultiWorkspace\ExSaxum\build\resources\main;ExSaxum%%$PROJECT_DIR$/../MultiWorkspace\ExSaxum\build\classes\java\main;Mod_WTBW_Core%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Core\build\resources\main;Mod_WTBW_Core%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Core\build\classes\java\main;Mod_WTBW_Decoration%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Decoration\build\resources\main;Mod_WTBW_Decoration%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Decoration\build\classes\java\main;Mod_WTBW_Lib%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Lib\build\resources\main;Mod_WTBW_Lib%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Lib\build\classes\java\main;Mod_WTBW_Machines%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Machines\build\resources\main;Mod_WTBW_Machines%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Machines\build\classes\java\main;Mod_WTBW_Tools%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Tools\build\resources\main;Mod_WTBW_Tools%%$PROJECT_DIR$/../MultiWorkspace\Mod_WTBW_Tools\build\classes\java\main;Mod_YAMDA%%$PROJECT_DIR$/../MultiWorkspace\Mod_YAMDA\build\resources\main;Mod_YAMDA%%$PROJECT_DIR$/../MultiWorkspace\Mod_YAMDA\build\classes\java\main;Simple_Discord_Rich_Presence%%$PROJECT_DIR$/../MultiWorkspace\Simple_Discord_Rich_Presence\build\resources\main;Simple_Discord_Rich_Presence%%$PROJECT_DIR$/../MultiWorkspace\Simple_Discord_Rich_Presence\build\classes\java\main;ToolKit%%$PROJECT_DIR$/../MultiWorkspace\ToolKit\build\resources\main;ToolKit%%$PROJECT_DIR$/../MultiWorkspace\ToolKit\build\classes\java\main" />
+      <env name="MCP_MAPPINGS" value="snapshot_20200123-1.15.1" />
+      <env name="MCP_VERSION" value="20200307.202953" />
+      <env name="FORGE_VERSION" value="31.1.25" />
+      <env name="assetIndex" value="1.15" />
+      <env name="assetDirectory" value="C:\Users\Sunekaer\.gradle\caches\forge_gradle\assets" />
+      <env name="nativesDirectory" value="$PROJECT_DIR$/../MultiWorkspace\workspace\build\natives" />
+      <env name="FORGE_GROUP" value="net.minecraftforge" />
+      <env name="target" value="fmluserdevclient" />
+      <env name="MC_VERSION" value="1.15.2" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting" />
+    <module name="com.yourname.modid.workspace.main" />
+    <option name="VM_PARAMETERS" value="-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump &quot;-Dos.name=Windows 10&quot; -Dos.version=10.0 -Xmx6096M" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workspace/run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":workspace:prepareRunClient" externalProjectPath="$PROJECT_DIR$" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,184 @@
+buildscript {
+    repositories {
+        maven { url = 'https://files.minecraftforge.net/maven' }
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+    }
+}
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+repositories {
+    maven { // TOP
+        name 'tterrag maven'
+        url "https://maven.tterrag.com/"
+    }
+    maven { // JEI
+        url "http://dvs1.progwml6.com/files/maven"
+    }
+}
+
+version = '1.0'
+group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'modid'
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+
+minecraft {
+
+    mappings channel: 'snapshot', version: "${mcp_mappings}"
+    // accessTransformer = file('build/resources/main/META-INF/accesstransformer.cfg')
+    runs {
+        client {
+            workingDirectory project.file('run')
+            mods {
+                ToolKit {
+                    source project(':ToolKit').sourceSets.main
+                }
+                Mod_WTBW_Lib {
+                    source project(':Mod_WTBW_Lib').sourceSets.main
+                }
+                Mod_WTBW_Core {
+                    source project(':Mod_WTBW_Core').sourceSets.main
+                }
+                Mod_WTBW_Decoration {
+                    source project(':Mod_WTBW_Decoration').sourceSets.main
+                }
+                Mod_WTBW_Machines {
+                    source project(':Mod_WTBW_Machines').sourceSets.main
+                }
+                Mod_WTBW_Tools {
+                    source project(':Mod_WTBW_Tools').sourceSets.main
+                }
+                Simple_Discord_Rich_Presence {
+                    source project(':Simple_Discord_Rich_Presence').sourceSets.main
+                }
+                ExSaxum {
+                    source project(':ExSaxum').sourceSets.main
+                }
+                Mod_YAMDA {
+                    source project(':Mod_YAMDA').sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            mods {
+                ToolKit {
+                    source project(':ToolKit').sourceSets.main
+                }
+                Mod_WTBW_Lib {
+                    source project(':Mod_WTBW_Lib').sourceSets.main
+                }
+                Mod_WTBW_Core {
+                    source project(':Mod_WTBW_Core').sourceSets.main
+                }
+                Mod_WTBW_Decoration {
+                    source project(':Mod_WTBW_Decoration').sourceSets.main
+                }
+                Mod_WTBW_Machines {
+                    source project(':Mod_WTBW_Machines').sourceSets.main
+                }
+                Mod_WTBW_Tools {
+                    source project(':Mod_WTBW_Tools').sourceSets.main
+                }
+                Simple_Discord_Rich_Presence {
+                    source project(':Simple_Discord_Rich_Presence').sourceSets.main
+                }
+                ExSaxum {
+                    source project(':ExSaxum').sourceSets.main
+                }
+                Mod_YAMDA {
+                    source project(':Mod_YAMDA').sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+            args '--all', '--output', file('src/generated/resources/'), '--existing', sourceSets.main.resources.srcDirs[0]
+            mods {
+                ToolKit {
+                    source project(':ToolKit').sourceSets.main
+                }
+                Mod_WTBW_Lib {
+                    source project(':Mod_WTBW_Lib').sourceSets.main
+                }
+                Mod_WTBW_Core {
+                    source project(':Mod_WTBW_Core').sourceSets.main
+                }
+                Mod_WTBW_Decoration {
+                    source project(':Mod_WTBW_Decoration').sourceSets.main
+                }
+                Mod_WTBW_Machines {
+                    source project(':Mod_WTBW_Machines').sourceSets.main
+                }
+                Mod_WTBW_Tools {
+                    source project(':Mod_WTBW_Tools').sourceSets.main
+                }
+                Simple_Discord_Rich_Presence {
+                    source project(':Simple_Discord_Rich_Presence').sourceSets.main
+                }
+                ExSaxum {
+                    source project(':ExSaxum').sourceSets.main
+                }
+                Mod_YAMDA {
+                    source project(':Mod_YAMDA').sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-${jei_version}")
+    compile project(':ToolKit')
+    compile project(':Mod_WTBW_Lib')
+    compile project(':Mod_WTBW_Core')
+    compile project(':Mod_WTBW_Decoration')
+    compile project(':Mod_WTBW_Machines')
+    compile project(':Mod_WTBW_Tools')
+    compile project(':Mod_YAMDA')
+    compile project(':Simple_Discord_Rich_Presence')
+    compile project(':ExSaxum')
+    
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "tools",
+            "Specification-Vendor": "examplemodsareus",
+            "Specification-Version": "1", // We are version 1 of ourselves
+            "Implementation-Title": project.name,
+            "Implementation-Version": "${version}",
+            "Implementation-Vendor" :"examplemodsareus",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+def reobfFile = file("$buildDir/reobfJar/output.jar")
+def reobfArtifact = artifacts.add('default', reobfFile) {
+    type 'jar'
+    builtBy 'reobfJar'
+}
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact reobfArtifact
+        }
+    }
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}

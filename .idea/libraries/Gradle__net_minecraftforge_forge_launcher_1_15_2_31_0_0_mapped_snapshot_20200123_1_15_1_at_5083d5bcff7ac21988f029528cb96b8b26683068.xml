@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraftforge:forge:launcher:1.15.2-31.0.0_mapped_snapshot_20200123-1.15.1_at_5083d5bcff7ac21988f029528cb96b8b26683068">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ToolKit/build/fg_cache/net/minecraftforge/forge/1.15.2-31.0.0_mapped_snapshot_20200123-1.15.1/forge-1.15.2-31.0.0_mapped_snapshot_20200123-1.15.1-launcher.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/ToolKit/build/fg_cache/net/minecraftforge/forge/1.15.2-31.0.0_mapped_snapshot_20200123-1.15.1/forge-1.15.2-31.0.0_mapped_snapshot_20200123-1.15.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
