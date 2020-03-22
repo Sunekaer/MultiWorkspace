@@ -1,0 +1,124 @@
+[13Feb2020 20:33:19.400] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.1, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Sunekaer\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[13Feb2020 20:33:19.410] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_201 by Oracle Corporation
+[13Feb2020 20:33:20.012] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[13Feb2020 20:33:21.841] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Sunekaer\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[13Feb2020 20:33:25.383] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[13Feb2020 20:33:43.799] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[13Feb2020 20:33:45.190] [modloading-worker-2/INFO] [ToolKit/]: Loading mod
+[13Feb2020 20:33:45.294] [modloading-worker-1/INFO] [wtbw_decoration/]: Client side loaded
+[13Feb2020 20:33:45.307] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.1, for MC 1.15.2 with MCP 20200122.131323
+[13Feb2020 20:33:45.308] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.1 Initialized
+[13Feb2020 20:33:52.183] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[13Feb2020 20:33:52.308] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[13Feb2020 20:33:52.487] [modloading-worker-2/INFO] [IPCClient/]: Found preferred client: STABLE
+[13Feb2020 20:33:52.488] [modloading-worker-2/INFO] [Simple Discord Rich Presence/]: Discord client found and connected.
+[13Feb2020 20:33:52.709] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13Feb2020 20:33:53.331] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 31.1.1 Target: null
+[13Feb2020 20:34:21.451] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[13Feb2020 20:34:21.453] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[13Feb2020 20:34:21.703] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[13Feb2020 20:34:21.704] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[13Feb2020 20:34:21.753] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[13Feb2020 20:34:21.753] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[13Feb2020 20:34:21.754] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[13Feb2020 20:34:21.755] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[13Feb2020 20:34:21.756] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[13Feb2020 20:34:21.757] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13Feb2020 20:34:22.782] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[13Feb2020 20:34:22.785] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13Feb2020 20:34:22.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13Feb2020 20:34:23.648] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[13Feb2020 20:34:39.935] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Feb2020 20:34:39.936] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Feb2020 20:34:39.937] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Feb2020 20:34:39.938] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Feb2020 20:34:39.940] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Feb2020 20:34:40.150] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[13Feb2020 20:34:40.150] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[13Feb2020 20:34:40.589] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.1_mapped_snapshot_20200123-1.15.1-recomp.jar, main, main, main, main, main, main, main, jei-1.15.2-6.0.0.2_mapped_snapshot_20200123-1.15.1.jar, main
+[13Feb2020 20:34:49.027] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 9 recipes
+[13Feb2020 20:34:56.466] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[13Feb2020 20:34:57.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Feb2020 20:34:57.572] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[13Feb2020 20:34:57.593] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[13Feb2020 20:34:57.991] [Server thread/INFO] [ToolKit/]: Loading server stuff
+[13Feb2020 20:34:58.002] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 927 ms
+[13Feb2020 20:34:58.549] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Feb2020 20:34:58.551] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Feb2020 20:34:58.555] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[13Feb2020 20:35:00.694] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[13Feb2020 20:35:00.993] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:40fb0979] logged in with entity id 26 at (11.242966232587998, 2.0, 4.664318734846481)
+[13Feb2020 20:35:01.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[13Feb2020 20:35:01.375] [Render thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[13Feb2020 20:35:02.406] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[13Feb2020 20:35:02.442] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[13Feb2020 20:35:02.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Dev'/minecraft:overworld
+[13Feb2020 20:35:02.648] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[13Feb2020 20:35:03.246] [Render thread/INFO] [wtbw_machines/]: Created!
+[13Feb2020 20:35:03.484] [Render thread/INFO] [wtbw_machines/]: Loaded jei recipe integration in 2.213 ms
+[13Feb2020 20:35:03.618] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[13Feb2020 20:35:03.639] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 21.57 ms
+[13Feb2020 20:35:03.639] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[13Feb2020 20:35:04.612] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 972.3 ms
+[13Feb2020 20:35:04.612] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[13Feb2020 20:35:04.619] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 7.079 ms
+[13Feb2020 20:35:04.620] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[13Feb2020 20:35:04.746] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 125.7 ms
+[13Feb2020 20:35:04.766] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[13Feb2020 20:35:04.991] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 224.1 ms
+[13Feb2020 20:35:05.089] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 2.440 s
+[13Feb2020 20:35:05.238] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ÂHello from ToolKit, this message can be change or disabled in config.
+[13Feb2020 20:35:05.239] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 135 advancements
+[13Feb2020 20:35:05.767] [Server-Worker-13/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@1f404c7f[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) ~[authlib-1.5.25.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) ~[guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) ~[guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) ~[authlib-1.5.25.jar:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:1990) ~[?:?]
+	at net.minecraft.client.resources.SkinManager.lambda$loadProfileTextures$4(SkinManager.java:96) ~[?:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402) [?:1.8.0_201]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_201]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_201]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_201]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_201]
+[13Feb2020 20:35:09.486] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:11.586] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:12.636] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:13.686] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:14.736] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:17.884] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:21.033] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:25.984] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:27.034] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:30.183] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:31.233] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:32.283] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:35:34.092] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[13Feb2020 20:35:34.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Dev'/minecraft:overworld
+[13Feb2020 20:37:27.559] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:28.609] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:29.658] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:31.808] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:32.858] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:39.408] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:40.457] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:41.708] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:48.758] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:37:51.908] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:38:14.508] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:38:16.708] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:38:17.758] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:38:18.808] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:38:45.058] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:39:00.109] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore
+[13Feb2020 20:39:03.259] [Server thread/INFO] [STDOUT/]: [com.sunekaer.mods.exsaxum.item.ProspectorItem:onBlockDestroyed:41]: iron_ore

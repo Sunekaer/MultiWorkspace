@@ -1,0 +1,51 @@
+{
+  "stone_prospector": [
+    {
+      "block": "minecraft:stone",
+      "min_y": 0,
+      "max_y": 64,
+      "drops": [
+        {
+          "item": "minecraft:iron_ore",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "whitelist_biomes":[
+        "minecraft:plains"
+      ]
+    }
+  ],
+  "gold_prospector": [
+    {
+      "block": "minecraft:stone",
+      "min_y": 0,
+      "max_y": 64,
+      "drops": [
+        {
+          "item": "minecraft:iron_ore",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "whitelist_biomes":[
+
+      ]
+    },
+    {
+      "block": "minecraft:stone",
+      "min_y": 0,
+      "max_y": 32,
+      "drops": [
+        {
+          "item": "minecraft:gold_ore",
+          "chance": 0.25,
+          "count": 1
+        }
+      ],
+      "whitelist_biomes":[
+
+      ]
+    }
+  ]
+}

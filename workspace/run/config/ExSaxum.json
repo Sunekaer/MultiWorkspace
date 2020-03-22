@@ -1,0 +1,429 @@
+{
+  "stone_prospector": {
+    "drop_chance": 0.20,
+    "maxEnergy": 2000,
+    "energyCost": 200,
+    "duration": 240,
+    "drops": [
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 132,
+        "items": [
+          {
+            "item": "minecraft:coal_ore",
+            "weight": 25,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 64,
+        "items": [
+          {
+            "item": "minecraft:iron_ore",
+            "weight": 13,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:redstone_ore",
+            "weight": 2,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 34,
+        "items": [
+          {
+            "item": "minecraft:lapis_ore",
+            "weight": 1,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      }
+    ]
+  },
+  "iron_prospector": {
+    "drop_chance": 0.35,
+    "maxEnergy": 15000,
+    "energyCost": 150,
+    "duration": 180,
+    "drops": [
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 132,
+        "items": [
+          {
+            "item": "minecraft:coal_ore",
+            "weight": 10,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 64,
+        "items": [
+          {
+            "item": "minecraft:iron_ore",
+            "weight": 6,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:redstone_ore",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 34,
+        "items": [
+          {
+            "item": "minecraft:lapis_ore",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 34,
+        "items": [
+          {
+            "item": "minecraft:gold_ore",
+            "weight": 5,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:diamond_ore",
+            "weight": 2,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:emerald_ore",
+            "weight": 1,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:netherrack",
+        "min_y": 0,
+        "max_y": 126,
+        "items": [
+          {
+            "item": "minecraft:nether_quartz_ore",
+            "weight": 1,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+          "minecraft:nether"
+        ]
+      }
+    ]
+  },
+  "gold_prospector": {
+    "drop_chance": 0.70,
+    "maxEnergy": 20000,
+    "energyCost": 2000,
+    "duration": 20,
+    "drops": [
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 132,
+        "items": [
+          {
+            "item": "minecraft:coal_ore",
+            "weight": 6,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 64,
+        "items": [
+          {
+            "item": "minecraft:iron_ore",
+            "weight": 4,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:redstone_ore",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 34,
+        "items": [
+          {
+            "item": "minecraft:lapis_ore",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 34,
+        "items": [
+          {
+            "item": "minecraft:gold_ore",
+            "weight": 4,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:diamond_ore",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:emerald_ore",
+            "weight": 2,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:netherrack",
+        "min_y": 0,
+        "max_y": 126,
+        "items": [
+          {
+            "item": "minecraft:nether_quartz_ore",
+            "weight": 1,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+          "minecraft:nether"
+        ]
+      }
+    ]
+  },
+  "diamond_prospector": {
+    "drop_chance": 0.60,
+    "maxEnergy": 80000,
+    "energyCost": 100,
+    "duration": 60,
+    "drops": [
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 132,
+        "items": [
+          {
+            "item": "minecraft:coal_ore",
+            "weight": 10,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 64,
+        "items": [
+          {
+            "item": "minecraft:iron_ore",
+            "weight": 6,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:redstone_ore",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 34,
+        "items": [
+          {
+            "item": "minecraft:lapis_ore",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 34,
+        "items": [
+          {
+            "item": "minecraft:gold_ore",
+            "weight": 5,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:diamond_ore",
+            "weight": 2,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:stone",
+        "min_y": 0,
+        "max_y": 16,
+        "items": [
+          {
+            "item": "minecraft:emerald_ore",
+            "weight": 1,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+        ]
+      },
+      {
+        "block": "minecraft:netherrack",
+        "min_y": 0,
+        "max_y": 126,
+        "items": [
+          {
+            "item": "minecraft:nether_quartz_ore",
+            "weight": 1,
+            "count": 1
+          }
+        ],
+        "whitelist_biomes": [
+          "minecraft:nether"
+        ]
+      }
+    ]
+  }
+}

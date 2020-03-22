@@ -1,0 +1,108 @@
+
+#WTBW common config
+[blocks]
+	#The black list of blocks that can not be broken by machines (e.g. BlockBreaker, Quarry)
+	blockBreakBlacklist = ["minecraft:bedrock", "minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:nether_portal", "minecraft:barrier_block"]
+
+	[blocks.furnace]
+
+		[blocks.furnace.Gold]
+			#Gold furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 80
+
+		[blocks.furnace.DIAMOND]
+			#DIAMOND furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 40
+
+		[blocks.furnace.Iron]
+			#Iron furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 160
+
+		[blocks.furnace.End]
+			#End furnace smelting speed, in how many ticks it takes to smelt
+			#Range: 1 ~ 500
+			speed = 10
+
+	[blocks.vacuum]
+		#The radius in which the vacuum can check
+		#default: 6
+		#Range: 1 ~ 16
+		range = 6
+		#The time in ticks between trying to suck up items
+		#default: 10
+		#Range: 1 ~ 100
+		tick_rate = 10
+
+	[blocks.pusher_puller]
+		#Strength of pull/push
+		#default: 0.8
+		#Range: 0.01 ~ 5.0
+		strength = 0.8
+		#Range of pusher/puller
+		#default: 6
+		#Range: 1 ~ 16
+		range = 6
+		#Ticks between pulls/pushes
+		#default: 10
+		#Range: 1 ~ 100
+		tick_rate = 10
+
+	[blocks.redstone]
+
+		[blocks.redstone.timer]
+			#The duration of the redstone pulse for the timer
+			#Range: 1 ~ 100
+			duration = 6
+			#The time in ticks for the delay between pulses
+			#Range: 5 ~ 100
+			repeat = 10
+
+	[blocks.quarry]
+		#The power it uses to break a block
+		#default: 1000
+		#Range: > 1
+		power_usage = 1000
+		#If the quarry can break tile entities (like chests and spawners)
+		#default: false
+		break_tiles = false
+		#The maximum size of the quarry
+		#default:  128
+		#Range: 16 ~ 1024
+		max_size = 128
+		#The time in ticks between breaking a block
+		#default: 15
+		#Range: 1 ~ 1000
+		speed = 15
+		#The capacity of the quarry's battery
+		#always at least as big as the power usage
+		#default: 1000000
+		#Range: > 1
+		capacity = 1000000
+
+		[blocks.quarry.blocks]
+
+			[blocks.quarry.blocks.quarry]
+				#Tier 4 upgrade size
+				#default: 33
+				#Range: > 1
+				tier4 = 33
+				#Quarry's default size
+				#default: 1
+				#Range: > 1
+				default_size = 1
+				#Tier 3 upgrade size
+				#default: 17
+				#Range: > 1
+				tier3 = 17
+				#Tier 2 upgrade size
+				#default: 9
+				#Range: > 1
+				tier2 = 9
+				#Tier 1 upgrade size 
+				#default: 3
+				#Range: > 1
+				tier1 = 3
+

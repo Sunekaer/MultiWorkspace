@@ -1,0 +1,97 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 1/2/20 4:47 PM
+Description: Ticking block entity
+
+java.lang.NullPointerException: Ticking block entity
+	at com.wtbw.machines.tile.machine.QuarryTileEntity.tick(QuarryTileEntity.java:255) ~[?:?] {re:classloading}
+	at net.minecraft.world.World.tickBlockEntities(World.java:513) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ServerWorld.tick(ServerWorld.java:371) ~[?:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:877) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:812) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:658) [?:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.wtbw.machines.tile.machine.QuarryTileEntity.tick(QuarryTileEntity.java:255)
+
+-- Block entity being ticked --
+Details:
+	Name: wtbw_machines:quarry // com.wtbw.machines.tile.machine.QuarryTileEntity
+	Block: Block{wtbw_machines:quarry}[facing=west]
+	Block location: World: (-267,69,40), Chunk: (at 5,4,8 in -17,2; contains blocks -272,0,32 to -257,255,47), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Block: Block{wtbw_machines:quarry}[facing=west]
+	Block location: World: (-267,69,40), Chunk: (at 5,4,8 in -17,2; contains blocks -272,0,32 to -257,255,47), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+Stacktrace:
+	at net.minecraft.world.World.tickBlockEntities(World.java:513)
+	at net.minecraft.world.server.ServerWorld.tick(ServerWorld.java:371)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayerEntity['Dev'/102, l='New World', x=-263.88, y=69.00, z=40.39]]
+	Chunk stats: ServerChunkCache: 2674
+	Level dimension: DimensionType{minecraft:overworld}
+	Level name: New World
+	Level seed: -5360522578803282757
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: {}
+	Level spawn location: World: (-176,66,-80), Chunk: (at 0,4,0 in -11,-5; contains blocks -176,0,-80 to -161,255,-65), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 798655 game time, 6000 day time
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:877)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:812)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:658)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.1
+	Minecraft Version ID: 1.15.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 932720560 bytes (889 MB) / 2200961024 bytes (2099 MB) up to 3806855168 bytes (3630 MB)
+	CPUs: 8
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 5.0.0-milestone.4+67+b1a340b
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/eventbus-2.0.0-milestone.1-service.jar eventbus PLUGINSERVICE 
+		/forge-1.15.1-30.0.17_mapped_snapshot_20191228-1.14.3-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.15.1-30.0.17_mapped_snapshot_20191228-1.14.3-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.0.0-milestone.1-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.15.1-30.0.17_mapped_snapshot_20191228-1.14.3-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.15.1-30.0.17_mapped_snapshot_20191228-1.14.3-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.15.1-30.0.17_mapped_snapshot_20191228-1.14.3-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 30.0
+	Forge: net.minecraftforge:30.0.17
+	FML Language Providers: 
+		javafml@30.0
+		minecraft@1
+	Mod List: 
+		client-extra.jar Minecraft {minecraft@1.15.1 DONE}
+		main Tool Kit {toolkit@NONE DONE}
+		forge-1.15.1-30.0.17_mapped_snapshot_20191228-1.14.3-recomp.jar Forge {forge@30.0.16 DONE}
+		main WTBW Core {wtbw_core@NONE DONE}
+		main Simple Discord Rich Presence {sdrp@NONE DONE}
+		main WTBW Decoration {wtbw_decoration@NONE DONE}
+		main WTBW Library {wtbw_lib@NONE DONE}
+		main WTBW Machines {wtbw_machines@NONE DONE}
+		main WTBW Tools {wtbw_tools@NONE DONE}
+	Player Count: 1 / 8; [ServerPlayerEntity['Dev'/102, l='New World', x=-263.88, y=69.00, z=40.39]]
+	Data Packs: vanilla, mod:forge (incompatible), mod:sdrp (incompatible), mod:toolkit (incompatible), mod:wtbw_core (incompatible), mod:wtbw_decoration, mod:wtbw_lib, mod:wtbw_machines, mod:wtbw_tools
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'

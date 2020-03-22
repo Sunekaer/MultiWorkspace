@@ -2,7 +2,7 @@
   <library name="Gradle: net.minecraftforge:forge:1.15.2-31.1.25_mapped_snapshot_20200320-1.15.1">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/Could not find net.minecraftforge:forge:1.15.2-31.1.25_mapped_snapshot_20200320-1.15.1." />
-      <root url="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.25_mapped_snapshot_20200320-1.15.1/forge-1.15.2-31.1.25_mapped_snapshot_20200320-1.15.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.1.25_mapped_snapshot_20200320-1.15.1/forge-1.15.2-31.1.25_mapped_snapshot_20200320-1.15.1-recomp.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
